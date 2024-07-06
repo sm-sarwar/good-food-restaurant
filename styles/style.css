@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#hero{
+    width:1438px ;
+    height: 700px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+#hero .hero-content{
+    width: 760px;
+    /* height: 293px; */
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 444;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    opacity: .8;
+    margin-bottom: 12px;
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 518;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    margin-bottom: 18px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 370;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    justify-content: center;
+    padding: 16px 24px 16px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 444;
+    line-height:17px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    text-align: center;
+    border: none;
+}
+#card-box{
+    width: 980px;
+    margin: 100px auto;
+    
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 370;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    opacity: 0.6;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-size: 36px;
+    font-weight: 518;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+}
+.card-container{
+    margin-top: 30px;
+}
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image{
+    max-width: 300px;
+    
+}
+.card .image img{
+    width: 100%;
+}
+.card .shop{
+    border-radius: 6px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 15px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#about{
+    display: flex;
+    /* height: 300px; */
+}
+#about .about-image-box img{
+    width:100%;
+    height: 490px;
+}
+#about .about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-info .abt-info-hedaing{
+    color: rgb(16, 16, 16);
+    font-size: 36px;
+    font-weight: 518;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    margin-top: 100px;
+}
+#about .abt-inf-pera{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 380;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    font-family: Work Sans;
+    margin-top: 20px;
+}
+.about-info-heading-4{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-size: 26px;
+    font-weight: 444;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    margin: 25px 0;
+}
+.fa-brands{
+    width: 50px;
+}
+#ftr-back{
+    width:1438px;
+    height:496px ;
+    background-image:linear-gradient(rgba(248, 246, 246, 0.884),rgba(223, 221, 221, 0.918)) ,url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+#ftr-back .about-info .abt-info-hedaing{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 497;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+}
+
+#ftr-back .about-info .abt-inf-pera{
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    margin-top: 20px;
+    opacity: .7;
+}
+.icon{
+    text-align: center;
+}
